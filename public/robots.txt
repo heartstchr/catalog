@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow admin routes
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://your-site.netlify.app/sitemap.xml
+

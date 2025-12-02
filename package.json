@@ -1,0 +1,23 @@
+{
+  "name": "contact-form-widget",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm build && netlify dev",
+    "build": "cd frontend && pnpm build",
+    "deploy": "pnpm build && netlify deploy --prod",
+    "enable-blobs": "node enable-blobs.js",
+    "postinstall": "node enable-blobs.js"
+  },
+  "keywords": ["contact-form", "widget", "notion", "netlify", "embed"],
+  "author": "",
+  "license": "ISC",
+  "description": "A lightweight contact form widget that can be embedded on any website and sends data to Notion database",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}

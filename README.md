@@ -1,2 +1,1 @@
-# livome
-livome
+# landing-page
